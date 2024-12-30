@@ -1,0 +1,29 @@
+{
+  "name": "doxinator4000",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stupid",
+    "nodejs",
+    "express"
+  ],
+  "author": "crazystuffofficial",
+  "license": "MIT",
+  "description": "A tool used for getting home addresses with information.",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
